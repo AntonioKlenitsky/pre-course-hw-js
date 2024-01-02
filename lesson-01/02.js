@@ -12,4 +12,4 @@ function checkOfNumber(number1){
         return number1+":Это нечетное число";
     }
 }
-console.log(checkOfNumber());
+console.log(checkOfNumber(number1));

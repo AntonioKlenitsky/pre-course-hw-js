@@ -1,4 +1,4 @@
-let number1 = Math.floor(Math.random() * 100);
+let number1 = Math.floor(Math.random() * 100)
 function checkOfNumber(number1){
   if (number1===0){
     return 0;

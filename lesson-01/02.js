@@ -4,12 +4,14 @@ let number1 = Math.floor(Math.random() * 100)
 или «[вставь сюда полученное число] :Это нечетное число». 
 С каждой перезагрузкой страницы у тебя будет новое число.​ */
 
-let number1 = Math.floor(Math.random() * 100)
+let number1 = Math.floor(Math.random() * 100);
 function checkOfNumber(number1){
-    if (number1%2===0){
-        return number1+"Это четное число";
+  if (number1===0){
+    return 0;
+  } else if (number1%2===0){
+        return number1+" Это четное число";
     } else  {
-        return number1+"Это нечетное число";
+        return number1+" Это нечетное число";
     }
 }
 console.log(checkOfNumber(number1));

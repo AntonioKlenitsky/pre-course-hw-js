@@ -13,3 +13,4 @@ function checkOfNumber(){
     }
 }
 
+console.log(checkOfNumber);

@@ -5,7 +5,7 @@ let passport = {
 console.log(passport);
 
 let copyPassport = {...passport = {
-    name: "Petr",
+    name: "Ivan",
     surname: "Petrov",
 }};
  

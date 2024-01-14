@@ -8,9 +8,9 @@ let passportWithAddress = {
 };
 
 
-let copyPassport = {...passportWithAddress};
-copyPassport.address[1] = 'Bobruisk';
+let copyNewAdress = {...passportWithAddress.address};
+copyNewAdress.city = 'Bobryisk';
 
 
 console.log(passportWithAddress.address.city);
-console.log(copyPassport.address[1]);
+console.log(copyNewAdress.city);

@@ -2,11 +2,12 @@ let passport = {
     name: "Petr",
     surname: "Petrov",
 };
+console.log(passport);
 
-let copy = {...passport = {
-    name: "Ivan",
+let copyPassport = {...passport = {
+    name: "Petr",
     surname: "Petrov",
 }};
  
-console.log(passport);
-console.log(copy);
+
+console.log(copyPassport);
